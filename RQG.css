@@ -1,0 +1,77 @@
+body {
+  background-image: url(file:///H:/Wallpaper/aesthetic-smoke-dark-desktop-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* Ensure the body takes up the full height of the viewport */
+  margin: 0; /* Remove default body margin */
+}
+
+h1, h3 {
+  font-family: monospace, Helvetica,  Arial;
+  color: white;
+  text-align: center;
+  margin-bottom: 200px 0 0 0;
+}
+
+.text-box {
+  margin: 0 auto;
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 500px
+}
+
+hr {
+  color: white;
+  height: 2px;
+  width: 60%;
+  background-color: white;
+  margin: 20px auto;
+}
+
+button {
+  font-size: 16px;
+  width: 230px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 10px 5px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #8E44AD;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+}
+
+span {
+  background: #8E44AD;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.3s;
+}
+
+button:hover span {
+  width: 100%;
+}
+
+button:hover {
+  border: none;
+}
+
+p {
+  color: white;
+  font-family: monospace, Helvetica,  Arial;
+}
